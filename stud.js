@@ -5,7 +5,7 @@ function addStudent() {
   const roll = document.getElementById('rollInput').value.trim();
 
   if (!name || !id || !className || !roll) {
-    alert('Please fill all fields');
+    alert('all fields are mandatory');
     return;
   }
 
